@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06141b">
+  <meta name="description" content="Демонстрационный лендинг о дополнительной занятости через партнёрскую модель: принцип работы, вопросы перед стартом и иллюстративный расчёт.">
+  <title>OPPORTUNITY — Твоя вторая опора</title>
+  <link rel="preload" as="image" href="assets/images/hero_desktop.jpg" media="(min-width: 761px)">
+  <link rel="preload" as="image" href="assets/images/hero_mobil.jpg" media="(max-width: 760px)">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/gsap.min.js" defer></script>
+  <script src="vendor/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="OPPORTUNITY — в начало"><span class="brand-mark" aria-hidden="true">✳</span><span>OPPORTUNITY</span></a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#possibilities">Возможности</a><a href="#model">Как это работает</a><a href="#stories">Истории</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="button button-small header-cta" href="#contacts">Получить информацию <span aria-hidden="true">→</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="#possibilities">Возможности</a><a href="#model">Как это работает</a><a href="#stories">Истории</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero dark-section" aria-labelledby="hero-title">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="shell hero-inner">
+        <div class="hero-content">
+          <p class="hero-kicker">Больше, чем одна зарплата</p>
+          <h1 id="hero-title" class="script-title">Твоя<br><span>вторая</span><br><em>опора</em></h1>
+          <p class="hero-lead">Дополнительный доход, который можно развивать в своём ритме.</p>
+          <p class="hero-explain">Узнайте, как устроена партнёрская модель: что придётся делать, за что предусмотрено вознаграждение и какие условия нужно выяснить до старта.</p>
+          <div class="action-row"><a class="button" href="#model">Посмотреть, как это работает <span aria-hidden="true">→</span></a><a class="button button-ghost" href="#contacts">Задать вопрос</a></div>
+        </div>
+        <ul class="hero-points" aria-label="Темы страницы">
+          <li><img src="assets/icons/income.svg" alt="">Дополнительный<br>доход</li>
+          <li><img src="assets/icons/schedule.svg" alt="">Гибкий<br>график</li>
+          <li><img src="assets/icons/growth.svg" alt="">Развитие<br>и обучение</li>
+          <li><img src="assets/icons/community.svg" alt="">Сообщество</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section light-section reasons" id="possibilities" aria-labelledby="reasons-title">
+      <div class="shell split-section">
+        <div class="section-intro reveal">
+          <p class="eyebrow">Проблема, которая знакома многим</p>
+          <h2 id="reasons-title">Почему люди ищут дополнительный доход?</h2>
+          <p>Жизнь дорожает, появляются новые цели, и всё больше людей хотят чувствовать уверенность в завтрашнем дне.</p>
+          <a class="text-link" href="#model">Это про вас? <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="image-grid four-grid">
+          <article class="image-card reveal"><img src="assets/images/рост расходов.jpg" alt="Счета и калькулятор на столе" loading="lazy" width="1254" height="1254"><h3>Рост расходов</h3><p>Цены растут, а доходы не всегда успевают за ними.</p></article>
+          <article class="image-card reveal"><img src="assets/images/новые цели.jpg" alt="Человек смотрит на море на закате" loading="lazy" width="1254" height="1254"><h3>Новые цели</h3><p>Путешествия, образование, планы для себя и семьи.</p></article>
+          <article class="image-card reveal"><img src="assets/images/финансовая подушка.jpg" alt="Мама обнимает ребёнка" loading="lazy" width="1254" height="1254"><h3>Финансовая подушка</h3><p>Хочется иметь резерв на непредвиденные ситуации.</p></article>
+          <article class="image-card reveal"><img src="assets/images/больше возможностей.jpg" alt="Рабочее место с ноутбуком у окна" loading="lazy" width="1254" height="1254"><h3>Больше возможностей</h3><p>Дополнительные средства расширяют свободу выбора.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section model" id="model" aria-labelledby="model-title">
+      <div class="shell model-layout">
+        <div class="section-intro reveal"><p class="eyebrow">Понятная модель — без громких обещаний</p><h2 id="model-title">Как устроена партнёрская модель?</h2><p>В основе — продукт и рекомендации людям, которым он может быть интересен. Вознаграждение зависит от правил конкретной партнёрской программы и фактически выполненных условий.</p><a class="button" href="#contacts">Узнать подробнее <span aria-hidden="true">→</span></a></div>
+        <ol class="model-steps">
+          <li class="reveal"><span class="step-icon"><img src="assets/icons/product.svg" alt=""></span><div><h3>Продукт</h3><p>Вы изучаете продукт и условия его предложения.</p></div></li>
+          <li class="reveal"><span class="step-icon"><img src="assets/icons/recommendation.svg" alt=""></span><div><h3>Рекомендация</h3><p>Рассказываете о продукте людям, для которых он может быть полезен.</p></div></li>
+          <li class="reveal"><span class="step-icon"><img src="assets/icons/purchase.svg" alt=""></span><div><h3>Покупка</h3><p>Клиент самостоятельно решает, покупать ли продукт.</p></div></li>
+          <li class="reveal"><span class="step-icon"><img src="assets/icons/reward.svg" alt=""></span><div><h3>Вознаграждение</h3><p>При выполнении установленных условий программа может предусматривать выплату.</p></div></li>
+        </ol>
+        <p class="model-note">Схема иллюстративная, не заменяет официальные правила конкретной компании. Условия покупок, выплат, возвратов и участия необходимо уточнять до присоединения.</p>
+      </div>
+    </section>
+
+    <section class="section light-section rhythm" aria-labelledby="rhythm-title">
+      <div class="shell split-section">
+        <div class="section-intro reveal"><p class="eyebrow">Как это вписывается в реальную жизнь</p><h2 id="rhythm-title">Гибкий формат под ваш ритм</h2><p>Не обязательно менять привычный распорядок. Можно оценить, сколько времени вы готовы выделить на изучение продукта, общение и работу с клиентами.</p><a class="button" href="#stories">Посмотреть примеры <span aria-hidden="true">→</span></a></div>
+        <div class="image-grid three-grid">
+          <article class="image-card reveal"><img src="assets/images/после работы.jpg" alt="Человек работает за ноутбуком вечером" loading="lazy" width="1254" height="1254"><h3>После работы</h3><p>Когда основные дела закончены и осталось время на собственный проект.</p></article>
+          <article class="image-card reveal"><img src="assets/images/в свободные часы.jpg" alt="Женщина занимается делами дома" loading="lazy" width="1254" height="1254"><h3>В свободные часы</h3><p>В удобные промежутки дня, без заранее заданного расписания в демонстрационной модели.</p></article>
+          <article class="image-card reveal"><img src="assets/images/в выходные.jpg" alt="Человек смотрит на горы" loading="lazy" width="1254" height="1254"><h3>В выходные</h3><p>Если вы предпочитаете выделять время на проект в конце недели.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section calculator-section" id="calculator" aria-labelledby="calc-title">
+      <div class="shell calculator-layout">
+        <div class="section-intro reveal"><p class="eyebrow">Интерактивный расчёт</p><h2 id="calc-title">Рассчитай свои возможности</h2><p>Измените условные значения и посмотрите, как устроена простая арифметика вознаграждения. Это не прогноз дохода: расчёт не учитывает все правила конкретной программы, налоги и возможные расходы.</p></div>
+        <div class="calculator-panel reveal" role="group" aria-label="Параметры демонстрационного расчёта">
+          <div class="calc-field"><div class="calc-heading"><label for="sales">Личные продажи в месяц</label><output for="sales" id="sales-value">50 000 ₽</output></div><input id="sales" type="range" min="0" max="300000" step="1000" value="50000"><div class="range-ends"><span>0 ₽</span><span>300 000 ₽</span></div></div>
+          <div class="calc-field"><div class="calc-heading"><label for="rate">Условная ставка вознаграждения</label><output for="rate" id="rate-value">10 %</output></div><input id="rate" type="range" min="0" max="30" step="1" value="10"><div class="range-ends"><span>0 %</span><span>30 %</span></div></div>
+          <div class="calc-field"><div class="calc-heading"><label for="expenses">Расходы</label><output for="expenses" id="expenses-value">3 000 ₽</output></div><input id="expenses" type="range" min="0" max="30000" step="500" value="3000"><div class="range-ends"><span>0 ₽</span><span>30 000 ₽</span></div></div>
+        </div>
+        <div class="calc-result reveal"><p>Расчётный результат до налогов, в месяц (пример)</p><output id="result" aria-live="polite">2 000 ₽</output><p class="calc-disclaimer">Упрощённая иллюстрация, не оферта и не гарантия заработка. Реальные ставки, ограничения, возвраты, обязательные покупки, затраты и налоги зависят от конкретной программы и обстоятельств участника.</p></div>
+      </div>
+    </section>
+
+    <section class="section light-section benefits" aria-labelledby="benefits-title">
+      <div class="shell split-section"><div class="section-intro reveal"><h2 id="benefits-title">Почему это удобно?</h2><p>Партнёрский формат может дополнять основную занятость, но требует времени, работы с продуктом и общения с людьми.</p></div><div class="benefit-grid">
+        <article class="benefit-card reveal"><span class="benefit-icon"><img src="assets/icons/schedule.svg" alt=""></span><h3>Гибкий график</h3><p>Вы решаете, когда уделять время проекту.</p></article>
+        <article class="benefit-card reveal"><span class="benefit-icon"><img src="assets/icons/income.svg" alt=""></span><h3>Расходы на старте</h3><p>Перед участием изучите возможные взносы, покупки и другие затраты.</p></article>
+        <article class="benefit-card reveal"><span class="benefit-icon"><img src="assets/icons/growth.svg" alt=""></span><h3>Обучение и поддержка</h3><p>Уточните, какие материалы и помощь действительно доступны в выбранной программе.</p></article>
+        <article class="benefit-card reveal"><span class="benefit-icon"><img src="assets/icons/community.svg" alt=""></span><h3>Сообщество</h3><p>Узнайте, предусмотрено ли общение с другими участниками и наставником.</p></article>
+      </div></div>
+    </section>
+
+    <section class="section dark-section stories" id="stories" aria-labelledby="stories-title">
+      <div class="shell split-section"><div class="section-intro reveal"><p class="eyebrow">Вымышленные примеры</p><h2 id="stories-title">Три жизненных сценария</h2><p>Разные профессии, города и жизненные обстоятельства. Ниже — вымышленные примеры того, зачем люди могут интересоваться дополнительным доходом. Это не реальные отзывы и не доказательства заработка.</p><a class="button" href="#contacts">Задать вопрос <span aria-hidden="true">→</span></a></div>
+      <div class="story-grid">
+        <article class="story-card reveal"><img src="assets/images/история 1.jpg" alt="Иллюстративный портрет Марины" loading="lazy" width="1254" height="1254"><div class="story-copy"><span class="story-label">Вымышленный пример</span><blockquote>«Я рассматриваю дополнительный проект, который можно совмещать с семейными делами. Сначала хочу разобраться в продукте и условиях».</blockquote><p><strong>Марина, 34 года</strong><br>маркетолог</p></div></article>
+        <article class="story-card reveal"><img src="assets/images/история 2.jpg" alt="Иллюстративный портрет Алексея" loading="lazy" width="1254" height="1254"><div class="story-copy"><span class="story-label">Вымышленный пример</span><blockquote>«Меня интересует возможность работать в свободные часы. Прежде чем решать, хочу понять расходы и принципы выплат».</blockquote><p><strong>Алексей, 38 лет</strong><br>IT-специалист</p></div></article>
+        <article class="story-card reveal"><img src="assets/images/история 3.jpg" alt="Иллюстративный портрет Елены" loading="lazy" width="1254" height="1254"><div class="story-copy"><span class="story-label">Вымышленный пример</span><blockquote>«Для меня важны понятный продукт, общение с клиентами и условия, которые можно проверить заранее».</blockquote><p><strong>Елена, 29 лет</strong><br>фитнес-тренер</p></div></article>
+      </div></div>
+    </section>
+
+    <section class="section light-section suitability" aria-labelledby="fit-title"><div class="shell split-section"><div class="section-intro reveal"><h2 id="fit-title">Кому подходит, а кому нет?</h2><p>Проверьте, соответствует ли такой формат вашим интересам и ожиданиям.</p></div><div class="fit-grid">
+      <div class="fit-card fit-yes reveal"><h3><img src="assets/icons/suitable.svg" alt="">Может подойти, если вы:</h3><ul><li>готовы общаться с людьми;</li><li>интересуетесь продуктом;</li><li>хотите разобраться в условиях;</li><li>готовы учиться и тратить время;</li><li>цените возможность самостоятельно планировать занятость.</li></ul></div>
+      <div class="fit-card fit-no reveal"><h3><img src="assets/icons/unsuitable.svg" alt="">Вряд ли подойдёт, если вы:</h3><ul><li>рассчитываете на быстрые гарантированные деньги;</li><li>не готовы уделять время проекту;</li><li>не хотите общаться с клиентами;</li><li>ищете полностью пассивный доход;</li><li>не готовы изучать расходы и правила программы.</li></ul></div>
+    </div></div></section>
+
+    <section class="section dark-section faq" id="faq" aria-labelledby="faq-title"><div class="shell split-section"><div class="section-intro reveal"><h2 id="faq-title">Часто задаваемые вопросы</h2><p>Короткие ответы на вопросы, которые стоит задать прежде, чем принимать решение.</p><a class="button" href="#contacts">Задать вопрос <span aria-hidden="true">→</span></a></div><div class="faq-list reveal">
+      <details><summary>Сколько времени нужно уделять?</summary><p>Зависит от выбранной программы и ваших задач. Фиксированного универсального графика нет; для оценки лучше заранее определить доступное время и обязанности.</p></details>
+      <details><summary>Какие расходы на старте?</summary><p>Без названия и правил конкретной компании назвать сумму достоверно нельзя. Следует проверить стоимость продукта, возможные обязательные покупки, взносы, доставку и дополнительные расходы.</p></details>
+      <details><summary>Как происходит обучение?</summary><p>Это зависит от компании и команды. До начала участия запросите перечень материалов, формат сопровождения и наличие платных занятий.</p></details>
+      <details><summary>Можно ли совмещать с основной работой?</summary><p>Во многих случаях такой формат можно рассматривать как дополнительную занятость, но нагрузка, юридические ограничения и фактическая организация зависят от ситуации.</p></details>
+      <details><summary>Как и когда выплачивается вознаграждение?</summary><p>По официальному плану вознаграждений конкретной компании. Без него нельзя достоверно указывать сроки, ставки и условия.</p></details>
+      <details><summary>Подходит ли эта возможность новичкам?</summary><p>Это определяется сложностью продукта, доступностью обучения, условиями участия и готовностью человека изучать модель.</p></details>
+    </div></div></section>
+
+    <section class="final-cta dark-section" aria-labelledby="final-title"><div class="cta-photo" aria-hidden="true"></div><div class="cta-shade" aria-hidden="true"></div><div class="shell final-inner"><div class="final-copy reveal"><h2 id="final-title" class="script-title">Узнайте,<br>подходит ли<br><em>это вам</em></h2><p>Получите информацию о продукте, партнёрской модели и условиях участия. Изучите детали, задайте вопросы и только после этого принимайте решение.</p><div class="action-row"><a class="button" href="#contacts">Получить информацию <span aria-hidden="true">→</span></a><a class="button button-ghost" href="#contacts">Задать вопрос</a></div></div><ul class="final-points"><li>Условия участия</li><li>Обучение и поддержка</li><li>Общение с партнёром</li></ul></div></section>
+  </main>
+
+  <footer class="site-footer" id="contacts"><div class="shell"><div class="footer-main"><div><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✳</span><span>OPPORTUNITY</span></a><p class="footer-demo">Демонстрационный макет лендинга. Не является предложением конкретной MLM-компании. Приведённые персонажи, цифры и сценарии условны.</p></div><div class="contact-links"><a href="tel:+79125245176"><img src="assets/icons/phone.svg" alt="">+7 912 524-51-76</a><div class="email-row"><a href="mailto:kuzinev@yandex.ru"><img src="assets/icons/mail.svg" alt="">kuzinev@yandex.ru</a><button class="copy-button" type="button" data-copy-email="kuzinev@yandex.ru">Скопировать адрес</button><span class="copy-status" role="status" aria-live="polite"></span></div><a class="telegram-link" href="https://t.me/refmagnat" target="_blank" rel="noopener noreferrer"><img src="assets/icons/telegram.svg" alt="">Написать в Telegram</a></div></div><nav class="footer-nav" aria-label="Навигация в подвале"><a href="#possibilities">Возможности</a><a href="#model">Как это работает</a><a href="#stories">Истории</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a></nav></div></footer>
+</body>
+</html>
